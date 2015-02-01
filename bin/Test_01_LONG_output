@@ -1,0 +1,220 @@
+/* *****************************************************************************
+* Project: Dijkstra's Algorithm in Scala
+* File: Test_01_LONG_output
+* Description: Shows the exact path and details of how the program traverses
+*   the graph and finds the shortest path using Dijkstras algorithm.
+* Author: William Koppelberger
+* Date: 2/2/15
+* *****************************************************************************/
+
+
+***********************************
+Current Vertex: Kruthika's abode
+***********************************
+
+NeighborInfo: Map(neighbor -> Mark's crib, distance -> 9, neighborVertex -> Vertex@140e19d)
+Neighbor's Calculated Distance: 9
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 9  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 9
+
+NeighborInfo: Map(neighbor -> Greg's casa, distance -> 4, neighborVertex -> Vertex@17327b6)
+Neighbor's Calculated Distance: 4
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 4  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 4
+
+NeighborInfo: Map(neighbor -> Matt's pad, distance -> 18, neighborVertex -> Vertex@14ae5a5)
+Neighbor's Calculated Distance: 18
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 18  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 18
+
+NeighborInfo: Map(neighbor -> Brian's apartment, distance -> 8, neighborVertex -> Vertex@131245a)
+Neighbor's Calculated Distance: 8
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 8  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 8
+
+Unvisited/Evaluated Vertices: Brian's apartment(8), Greg's casa(4), Matt's pad(18), Mark's crib(9), 
+Lowest Unvisited Vertex: Greg's casa
+
+
+***********************************
+Current Vertex: Greg's casa
+***********************************
+
+NeighborInfo: Map(neighbor -> Cam's dwelling, distance -> 13, neighborVertex -> Vertex@16f6e28)
+Neighbor's Calculated Distance: 17
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 17  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 17
+
+NeighborInfo: Map(neighbor -> Mike's digs, distance -> 19, neighborVertex -> Vertex@15fbaa4)
+Neighbor's Calculated Distance: 23
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 23  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 23
+
+NeighborInfo: Map(neighbor -> Matt's pad, distance -> 14, neighborVertex -> Vertex@14ae5a5)
+Neighbor's Calculated Distance: 18
+Neighbor Lowest Distance: 18
+
+Unvisited/Evaluated Vertices: Brian's apartment(8), Matt's pad(18), Mark's crib(9), Mike's digs(23), Cam's dwelling(17), 
+Lowest Unvisited Vertex: Brian's apartment
+
+
+***********************************
+Current Vertex: Brian's apartment
+***********************************
+
+NeighborInfo: Map(neighbor -> Wesley's condo, distance -> 7, neighborVertex -> Vertex@1ee12a7)
+Neighbor's Calculated Distance: 15
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 15  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 15
+
+NeighborInfo: Map(neighbor -> Cam's dwelling, distance -> 17, neighborVertex -> Vertex@16f6e28)
+Neighbor's Calculated Distance: 25
+Neighbor Lowest Distance: 17
+
+Unvisited/Evaluated Vertices: Wesley's condo(15), Matt's pad(18), Mark's crib(9), Mike's digs(23), Cam's dwelling(17), 
+Lowest Unvisited Vertex: Mark's crib
+
+
+***********************************
+Current Vertex: Mark's crib
+***********************************
+
+NeighborInfo: Map(neighbor -> Matt's pad, distance -> 19, neighborVertex -> Vertex@14ae5a5)
+Neighbor's Calculated Distance: 28
+Neighbor Lowest Distance: 18
+
+NeighborInfo: Map(neighbor -> Kirk's farm, distance -> 9, neighborVertex -> Vertex@10bedb4)
+Neighbor's Calculated Distance: 18
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 18  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 18
+
+NeighborInfo: Map(neighbor -> Nathan's flat, distance -> 12, neighborVertex -> Vertex@103dbd3)
+Neighbor's Calculated Distance: 21
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 21  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 21
+
+Unvisited/Evaluated Vertices: Wesley's condo(15), Matt's pad(18), Mike's digs(23), Cam's dwelling(17), Kirk's farm(18), Nathan's flat(21), 
+Lowest Unvisited Vertex: Wesley's condo
+
+
+***********************************
+Current Vertex: Wesley's condo
+***********************************
+
+NeighborInfo: Map(neighbor -> Kirk's farm, distance -> 10, neighborVertex -> Vertex@10bedb4)
+Neighbor's Calculated Distance: 25
+Neighbor Lowest Distance: 18
+
+NeighborInfo: Map(neighbor -> Nathan's flat, distance -> 11, neighborVertex -> Vertex@103dbd3)
+Neighbor's Calculated Distance: 26
+Neighbor Lowest Distance: 21
+
+NeighborInfo: Map(neighbor -> Bryce's den, distance -> 6, neighborVertex -> Vertex@167cf4d)
+Neighbor's Calculated Distance: 21
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 21  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 21
+
+Unvisited/Evaluated Vertices: Matt's pad(18), Bryce's den(21), Mike's digs(23), Cam's dwelling(17), Kirk's farm(18), Nathan's flat(21), 
+Lowest Unvisited Vertex: Cam's dwelling
+
+
+***********************************
+Current Vertex: Cam's dwelling
+***********************************
+
+NeighborInfo: Map(neighbor -> Mike's digs, distance -> 20, neighborVertex -> Vertex@15fbaa4)
+Neighbor's Calculated Distance: 37
+Neighbor Lowest Distance: 23
+
+NeighborInfo: Map(neighbor -> Craig's haunt, distance -> 18, neighborVertex -> Vertex@a987ac)
+Neighbor's Calculated Distance: 35
+Neighbor Lowest Distance: 2147483647
+Neighbor's Calculated Distance: 35  is less than neighbor's Lowest Distance: 2147483647
+Neighbor's New Lowest Distance: 35
+
+Unvisited/Evaluated Vertices: Matt's pad(18), Bryce's den(21), Mike's digs(23), Craig's haunt(35), Kirk's farm(18), Nathan's flat(21), 
+Lowest Unvisited Vertex: Matt's pad
+
+
+***********************************
+Current Vertex: Matt's pad
+***********************************
+
+NeighborInfo: Map(neighbor -> Nathan's flat, distance -> 15, neighborVertex -> Vertex@103dbd3)
+Neighbor's Calculated Distance: 33
+Neighbor Lowest Distance: 21
+
+NeighborInfo: Map(neighbor -> Craig's haunt, distance -> 14, neighborVertex -> Vertex@a987ac)
+Neighbor's Calculated Distance: 32
+Neighbor Lowest Distance: 35
+Neighbor's Calculated Distance: 32  is less than neighbor's Lowest Distance: 35
+Neighbor's New Lowest Distance: 32
+
+Unvisited/Evaluated Vertices: Bryce's den(21), Mike's digs(23), Craig's haunt(32), Kirk's farm(18), Nathan's flat(21), 
+Lowest Unvisited Vertex: Kirk's farm
+
+
+***********************************
+Current Vertex: Kirk's farm
+***********************************
+
+NeighborInfo: Map(neighbor -> Nathan's flat, distance -> 3, neighborVertex -> Vertex@103dbd3)
+Neighbor's Calculated Distance: 21
+Neighbor Lowest Distance: 21
+
+Unvisited/Evaluated Vertices: Bryce's den(21), Mike's digs(23), Craig's haunt(32), Nathan's flat(21), 
+Lowest Unvisited Vertex: Bryce's den
+
+
+***********************************
+Current Vertex: Bryce's den
+***********************************
+
+NeighborInfo: Map(neighbor -> Craig's haunt, distance -> 10, neighborVertex -> Vertex@a987ac)
+Neighbor's Calculated Distance: 31
+Neighbor Lowest Distance: 32
+Neighbor's Calculated Distance: 31  is less than neighbor's Lowest Distance: 32
+Neighbor's New Lowest Distance: 31
+
+NeighborInfo: Map(neighbor -> Mike's digs, distance -> 9, neighborVertex -> Vertex@15fbaa4)
+Neighbor's Calculated Distance: 30
+Neighbor Lowest Distance: 23
+
+Unvisited/Evaluated Vertices: Mike's digs(23), Craig's haunt(31), Nathan's flat(21), 
+Lowest Unvisited Vertex: Nathan's flat
+
+
+***********************************
+Current Vertex: Nathan's flat
+***********************************
+
+NeighborInfo: Map(neighbor -> Mike's digs, distance -> 12, neighborVertex -> Vertex@15fbaa4)
+Neighbor's Calculated Distance: 33
+Neighbor Lowest Distance: 23
+
+Unvisited/Evaluated Vertices: Mike's digs(23), Craig's haunt(31), 
+Lowest Unvisited Vertex: Mike's digs
+
+
+***********************************
+Current Vertex: Mike's digs
+***********************************
+
+Unvisited/Evaluated Vertices: Craig's haunt(31), 
+Lowest Unvisited Vertex: Craig's haunt
+
+
+********
+Results
+********
+Map(distance -> 31, path -> Kruthika's abode => Brian's apartment => Wesley's condo => Bryce's den => Craig's haunt)
